@@ -66,8 +66,7 @@ jobs:
                        +force_dex_wqhd           \
                        +morosound                \
                        +boeffla_wl_blocker       \
-                       +fp_boost                 \
-                       +sched_...                \
+                       +fp_boost                 \                \
                        +nohardening2             \
                        +performance              \
           2>&1 | tee config.info
