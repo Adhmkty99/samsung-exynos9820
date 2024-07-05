@@ -11,9 +11,8 @@ jobs:
     runs-on: ubuntu-22.04
 
     strategy:
-      fail-fast: false
       matrix:
-        model: [ "G975F" "G973F" ]
+        model: [ "G975F" ]
 
     steps:
       - uses: actions/checkout@v3
@@ -71,7 +70,6 @@ jobs:
                        +sched_...                \
                        +nohardening2             \
                        +performance              \
-                       +
           2>&1 | tee config.info
 
       - name: Install gcc-aarch64-linux-gnu
