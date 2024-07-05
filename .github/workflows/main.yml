@@ -57,7 +57,7 @@ jobs:
                        model=${{ matrix.model }} \
                        name="adhmkty_kernel"     \
                        toolchain=$TOOLCHAIN      \
-                       +magisk=canary            \
+                       +magisk                   \
                        +nohardening              \
                        +ttl                      \
                        +cifs                     \
